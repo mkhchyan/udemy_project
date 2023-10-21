@@ -6,7 +6,7 @@ const Register = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleSubmit = async (e: any) => {
+  const handleSubmit = async () => {
     const { data } = await axios.post(`http://localhost:5000/api/register`);
 
     console.log("res", data);

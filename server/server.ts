@@ -10,8 +10,9 @@ require("dotenv").config()
 const app = express()
 
 // db connection
-console.log('DATABASE:', process.env.DATABASE);
-mongoose.connect(process.env.DATABASE, {})
+mongoose.connect(process.env.NEXT_PUBLIC_DATABASE_URL as string, {
+
+})
     .then(() => console.log('db connected'))
     .catch((err) => console.log('db connection error', err));
 

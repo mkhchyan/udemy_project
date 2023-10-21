@@ -16,13 +16,13 @@
     "esm": "^3.2.25",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.1",
-    "mongoose": "^7.4.4",
+    "mongoose": "^6.7.3",
     "morgan": "^1.10.0",
     "nodemon": "^3.0.1"
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",
     "@types/express": "^4.17.17",
-    "@types/node": "^20.5.4"
+    "@types/node": "^20.5.8"
   }
 }
